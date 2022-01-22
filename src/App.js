@@ -10,7 +10,7 @@ function App() {
       <Logo />
       <main>
           <section>
-              {// TO DO: make a main menu component here}
+
           </section>
       </main>
     </div>

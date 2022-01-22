@@ -8,6 +8,8 @@
 }
 
 .Logo-container {
+  position: absolute;
+  top: 1vh;
   float: left;
 }
 
@@ -50,9 +52,4 @@
 .Tab a:hover {
   background-color: white;
   color: black;
-}
-
-section {
-  background-color: #47424F;
-  height: 200vh;
 }

@@ -1,0 +1,56 @@
+.section-menu {
+    background-color: #47424F;
+    height: 90vh;
+}
+
+.empty {
+    height: 10vh;
+}
+
+.main-menu {
+    background-color: #473366;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    width: 80%;
+    border-color: #3C3940;
+    border-style: outset;
+    border-width: thick;
+}
+
+.description {
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0E0C12;
+    padding-top: 5%;
+}
+
+.buttons {
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 30%;
+}
+
+.btn-quick-search {
+    float: left;
+}
+
+.btn-weasel {
+    float: right;
+}
+
+.buttons a {
+    color: #0E0C12;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.buttons a:hover {
+    background-color: white;
+    color: black;
+}

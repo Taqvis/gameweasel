@@ -3,46 +3,66 @@
 }
 
 .App-logo {
-  height: 25vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
 .Logo-container {
   position: absolute;
-  top: 1vh;
+  top: 2vh;
+  left: 5vh;
   float: left;
 }
 
 .App-header {
+  z-index: 2;
   background-color: #0E0C12;
-  height: 10vh;
+  height: 15vh;
   width: 100%;
   font-size: calc(15px + 2vmin);
   color: #473366;
-  position: sticky;
   top: 0;
 }
 
+.space {
+  padding: 18px 23vh;
+  float: left;
+}
+
 .Title-name {
+  padding-top: 3vh;
   text-align: center;
+  display: block;
+  margin: auto;
+  float: none;
+}
+
+@font-face {
+  font-family: 'TheLiquid';
+  src: local('TheLiquid'), url('./fonts/TheLiquid.ttf') format('truetype');
 }
 
 .Title-name a {
-  color: #473366;
+  font-family: TheLiquid;
+  color: #7209B7;
   text-decoration: none;
 }
 
 .Title-name a:hover {
-  color: #473366;
+  color: #7209B7;
 }
 
 .Tab {
+  padding-top: 3vh;
   padding-right: 3vh;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .Tab a {
   float: right;
-  color: #473366;
+  color: #7209B7;
   text-align: center;
   padding: 18px 16px;
   text-decoration: none;

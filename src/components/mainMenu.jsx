@@ -11,7 +11,7 @@ class Menu extends Component {
                         <p>Struggling to think of a game to play?</p>
                     </div>
                     <div className="buttons">
-                        <Link to='/weasel'>
+                        <Link to='/game/?id='>
                             <button className="button-82-pushable" role="button">
                                 <span className="button-82-shadow"></span>
                                 <span className="button-82-edge"></span>

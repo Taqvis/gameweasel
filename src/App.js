@@ -16,7 +16,7 @@ function App() {
           <Header />
           <Routes>
               <Route path="/" element={<Menu />}/>
-              <Route path="/weasel" element={<Weasel />}/>
+              <Route path="/game" element={<Weasel />}/>
           </Routes>
           <About />
         </div>
